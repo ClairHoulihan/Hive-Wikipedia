@@ -7,8 +7,8 @@ Hive-Wikipedia is a Hive script that uses some of the data from wikimedia to ana
 HDFS
 YARN
 MapReduce
-Hadoop
-Hive
+Hadoop 2.7.7
+Hive 2.3.8
 
 ## Features
 Some of the features of the project:
@@ -20,16 +20,15 @@ To-do list:
 
 ## Getting Started
 
-for a Linux environment:
+For a Linux environment:
 
 git clone https://github.com/ClairHoulihan/Hive-Wikipedia.git
 
 mkdir ~/wikimedia_data
 
-To run the queries, you will need Hadoop, HDFS, YARN and HIVE downloaded, and have them running on the system
+To run the queries, you will need Hadoop, HDFS, YARN and HIVE versions described in technologies used downloaded, and have them running on the system
 
-You will also need to download all of the files used to create the tables. Running the bash script in the project will give the files necessary,
-but they will also need to be unzipped using bunzip2 for the .bz2 files and ginzip2 for the .gz files
+You will also need to download all of the files used to create the tables into the wikimedia_data directory. Running the bash script in the project will give the files necessary, but they will also need to be unzipped using bunzip2 for the .bz2 files and ginzip2 for the .gz files
 
 Using dbeaver is the best tool for utilizing the queries in this project.
 
